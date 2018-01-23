@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF38217C201741B400EDE7F9 /* PublicReposCachedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38217B201741B400EDE7F9 /* PublicReposCachedService.swift */; };
+		BF38217E2017443900EDE7F9 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38217D2017443900EDE7F9 /* Reachability.swift */; };
+		BF382180201749D600EDE7F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38217F201749D600EDE7F9 /* DetailViewController.swift */; };
+		BF38218220174F2900EDE7F9 /* PublicReposCachedServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38218120174F2900EDE7F9 /* PublicReposCachedServiceTests.swift */; };
 		BFC0C8342015E92000C4885C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8332015E92000C4885C /* AppDelegate.swift */; };
 		BFC0C8362015E92000C4885C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8352015E92000C4885C /* ViewController.swift */; };
 		BFC0C8392015E92000C4885C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0C8372015E92000C4885C /* Main.storyboard */; };
@@ -14,6 +18,17 @@
 		BFC0C83E2015E92000C4885C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0C83D2015E92000C4885C /* Assets.xcassets */; };
 		BFC0C8412015E92000C4885C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0C83F2015E92000C4885C /* LaunchScreen.storyboard */; };
 		BFC0C84C2015E92000C4885C /* NetworkLayerForTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C84B2015E92000C4885C /* NetworkLayerForTestTests.swift */; };
+		BFC0C8582015EA4C00C4885C /* BackendClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8572015EA4C00C4885C /* BackendClient.swift */; };
+		BFC0C85A2015EA5900C4885C /* BackendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8592015EA5900C4885C /* BackendRequest.swift */; };
+		BFC0C85E2015EAF900C4885C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C85D2015EAF900C4885C /* NetworkClient.swift */; };
+		BFC0C8602015ED0800C4885C /* BackendConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C85F2015ED0800C4885C /* BackendConfiguration.swift */; };
+		BFC0C8632015F09800C4885C /* PublicReposRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8622015F09800C4885C /* PublicReposRequest.swift */; };
+		BFC0C86B20162B6800C4885C /* GitRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C86A20162B6800C4885C /* GitRepository.swift */; };
+		BFC0C86E20162D3F00C4885C /* ManagedGitRepository+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C86C20162D3F00C4885C /* ManagedGitRepository+CoreDataClass.swift */; };
+		BFC0C86F20162D3F00C4885C /* ManagedGitRepository+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C86D20162D3F00C4885C /* ManagedGitRepository+CoreDataProperties.swift */; };
+		BFC0C872201631A200C4885C /* PublicReposAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C871201631A200C4885C /* PublicReposAPI.swift */; };
+		BFC0C8752016325500C4885C /* PublicReposStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C8742016325500C4885C /* PublicReposStore.swift */; };
+		BFC0C879201735E700C4885C /* PublicReposCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0C878201735E700C4885C /* PublicReposCoreDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF38217B201741B400EDE7F9 /* PublicReposCachedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposCachedService.swift; sourceTree = "<group>"; };
+		BF38217D2017443900EDE7F9 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BF38217F201749D600EDE7F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BF38218120174F2900EDE7F9 /* PublicReposCachedServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposCachedServiceTests.swift; sourceTree = "<group>"; };
 		BFC0C8302015E92000C4885C /* NetworkLayerForTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLayerForTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC0C8332015E92000C4885C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC0C8352015E92000C4885C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +57,17 @@
 		BFC0C8472015E92000C4885C /* NetworkLayerForTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerForTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC0C84B2015E92000C4885C /* NetworkLayerForTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerForTestTests.swift; sourceTree = "<group>"; };
 		BFC0C84D2015E92000C4885C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC0C8572015EA4C00C4885C /* BackendClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendClient.swift; sourceTree = "<group>"; };
+		BFC0C8592015EA5900C4885C /* BackendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendRequest.swift; sourceTree = "<group>"; };
+		BFC0C85D2015EAF900C4885C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		BFC0C85F2015ED0800C4885C /* BackendConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendConfiguration.swift; sourceTree = "<group>"; };
+		BFC0C8622015F09800C4885C /* PublicReposRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposRequest.swift; sourceTree = "<group>"; };
+		BFC0C86A20162B6800C4885C /* GitRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepository.swift; sourceTree = "<group>"; };
+		BFC0C86C20162D3F00C4885C /* ManagedGitRepository+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedGitRepository+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFC0C86D20162D3F00C4885C /* ManagedGitRepository+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedGitRepository+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFC0C871201631A200C4885C /* PublicReposAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposAPI.swift; sourceTree = "<group>"; };
+		BFC0C8742016325500C4885C /* PublicReposStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposStore.swift; sourceTree = "<group>"; };
+		BFC0C878201735E700C4885C /* PublicReposCoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicReposCoreDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +109,12 @@
 		BFC0C8322015E92000C4885C /* NetworkLayerForTest */ = {
 			isa = PBXGroup;
 			children = (
+				BFC0C8732016323200C4885C /* ReposService */,
+				BFC0C8692016296600C4885C /* Models */,
+				BFC0C85B2015EA8C00C4885C /* Network */,
 				BFC0C8332015E92000C4885C /* AppDelegate.swift */,
 				BFC0C8352015E92000C4885C /* ViewController.swift */,
+				BF38217F201749D600EDE7F9 /* DetailViewController.swift */,
 				BFC0C8372015E92000C4885C /* Main.storyboard */,
 				BFC0C83D2015E92000C4885C /* Assets.xcassets */,
 				BFC0C83F2015E92000C4885C /* LaunchScreen.storyboard */,
@@ -93,10 +127,69 @@
 		BFC0C84A2015E92000C4885C /* NetworkLayerForTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				BF38218120174F2900EDE7F9 /* PublicReposCachedServiceTests.swift */,
 				BFC0C84B2015E92000C4885C /* NetworkLayerForTestTests.swift */,
 				BFC0C84D2015E92000C4885C /* Info.plist */,
 			);
 			path = NetworkLayerForTestTests;
+			sourceTree = "<group>";
+		};
+		BFC0C8562015E93300C4885C /* Backend Core */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C8572015EA4C00C4885C /* BackendClient.swift */,
+				BFC0C8592015EA5900C4885C /* BackendRequest.swift */,
+				BFC0C85F2015ED0800C4885C /* BackendConfiguration.swift */,
+			);
+			path = "Backend Core";
+			sourceTree = "<group>";
+		};
+		BFC0C85B2015EA8C00C4885C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C85C2015EAE500C4885C /* Network Core */,
+				BFC0C8562015E93300C4885C /* Backend Core */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BFC0C85C2015EAE500C4885C /* Network Core */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C85D2015EAF900C4885C /* NetworkClient.swift */,
+				BF38217D2017443900EDE7F9 /* Reachability.swift */,
+			);
+			path = "Network Core";
+			sourceTree = "<group>";
+		};
+		BFC0C8692016296600C4885C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C86C20162D3F00C4885C /* ManagedGitRepository+CoreDataClass.swift */,
+				BFC0C86D20162D3F00C4885C /* ManagedGitRepository+CoreDataProperties.swift */,
+				BFC0C86A20162B6800C4885C /* GitRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFC0C870201630A500C4885C /* PublicReposAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C8622015F09800C4885C /* PublicReposRequest.swift */,
+			);
+			path = PublicReposAPI;
+			sourceTree = "<group>";
+		};
+		BFC0C8732016323200C4885C /* ReposService */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0C8742016325500C4885C /* PublicReposStore.swift */,
+				BFC0C871201631A200C4885C /* PublicReposAPI.swift */,
+				BFC0C878201735E700C4885C /* PublicReposCoreDataStore.swift */,
+				BF38217B201741B400EDE7F9 /* PublicReposCachedService.swift */,
+				BFC0C870201630A500C4885C /* PublicReposAPI */,
+			);
+			path = ReposService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +295,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC0C86F20162D3F00C4885C /* ManagedGitRepository+CoreDataProperties.swift in Sources */,
+				BF382180201749D600EDE7F9 /* DetailViewController.swift in Sources */,
 				BFC0C8362015E92000C4885C /* ViewController.swift in Sources */,
+				BFC0C8582015EA4C00C4885C /* BackendClient.swift in Sources */,
+				BFC0C8752016325500C4885C /* PublicReposStore.swift in Sources */,
+				BFC0C85A2015EA5900C4885C /* BackendRequest.swift in Sources */,
+				BFC0C8602015ED0800C4885C /* BackendConfiguration.swift in Sources */,
+				BF38217C201741B400EDE7F9 /* PublicReposCachedService.swift in Sources */,
 				BFC0C83C2015E92000C4885C /* NetworkLayerForTest.xcdatamodeld in Sources */,
 				BFC0C8342015E92000C4885C /* AppDelegate.swift in Sources */,
+				BFC0C879201735E700C4885C /* PublicReposCoreDataStore.swift in Sources */,
+				BFC0C86E20162D3F00C4885C /* ManagedGitRepository+CoreDataClass.swift in Sources */,
+				BFC0C8632015F09800C4885C /* PublicReposRequest.swift in Sources */,
+				BFC0C872201631A200C4885C /* PublicReposAPI.swift in Sources */,
+				BFC0C85E2015EAF900C4885C /* NetworkClient.swift in Sources */,
+				BF38217E2017443900EDE7F9 /* Reachability.swift in Sources */,
+				BFC0C86B20162B6800C4885C /* GitRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF38218220174F2900EDE7F9 /* PublicReposCachedServiceTests.swift in Sources */,
 				BFC0C84C2015E92000C4885C /* NetworkLayerForTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
